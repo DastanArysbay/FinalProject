@@ -176,7 +176,7 @@ else {
         document.querySelector('.out-33').innerHTML = findPartitions(data1)+ "(1 1 1 1 1 1 ) (2 1 1 1 1) (3 1 1 1) (3 2 1) (2 2 2) (2 4) (3 3) (1 1 4) (5 1) (2 2 1 1)   (6) ";
     }
     else if(data1==7){
-        document.querySelector('.out-33').innerHTML = findPartitions(data1)+ "(1 1 1 1 1 1 1 ) (2 1 1 1 1 1) (2 2 1 1 1) (2 2 2 1) (3 1 1 1 1) (3 2 1 1) (3 2 2) (3 3 1) (4 2 1) (4 1 1 1) (5 1 1) (4 3) (6 1) (7) ";
+        document.querySelector('.out-33').innerHTML = findPartitions(data1)+ "(1 1 1 1 1 1 1 ) (2 1 1 1 1 1) (2 2 1 1 1) (2 2 2 1) (3 1 1 1 1) (3 2 1 1) (3 2 2) (3 3 1) (4 2 1) (4 1 1 1) (5 1 1) (4 3) (5 2) (6 1) (7) ";
     }}
 
  if(data2==0){
@@ -203,7 +203,7 @@ else if(data2==6){
     document.querySelector('.out-44').innerHTML = findPartitions2(data2)+ "(1 1 1 1 1 1 ) (2 1 1 1 1) (3 1 1 1) (3 2 1) (2 2 2) (2 4) (3 3) (1 1 4) (5 1) (2 2 1 1)   (6) ";
 }
 else if(data2==7){
-    document.querySelector('.out-44').innerHTML = findPartitions2(data2)+ "(1 1 1 1 1 1 1 ) (2 1 1 1 1 1) (2 2 1 1 1) (2 2 2 1) (3 1 1 1 1) (3 2 1 1) (3 2 2) (3 3 1) (4 2 1) (4 1 1 1) (5 1 1) (4 3) (6 1) (7) ";
+    document.querySelector('.out-44').innerHTML = findPartitions2(data2)+ "(1 1 1 1 1 1 1 ) (2 1 1 1 1 1) (2 2 1 1 1) (2 2 2 1) (3 1 1 1 1) (3 2 1 1) (3 2 2) (3 3 1) (4 2 1) (4 1 1 1) (5 1 1) (4 3) (5 2) (6 1) (7) ";
 }
 
 }
